@@ -60,17 +60,11 @@ namespace Examen1
             this.rlbl1 = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.olbl2 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.olbl1 = new System.Windows.Forms.Label();
             this.button16 = new System.Windows.Forms.Button();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
             this.BLBL4 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
             this.BLBL2 = new System.Windows.Forms.Label();
@@ -79,6 +73,13 @@ namespace Examen1
             this.button19 = new System.Windows.Forms.Button();
             this.BLBL1 = new System.Windows.Forms.Label();
             this.button20 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -448,93 +449,6 @@ namespace Examen1
             this.tabPage7.Text = "Onigiri";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
-            // tabPage11
-            // 
-            this.tabPage11.Controls.Add(this.BLBL4);
-            this.tabPage11.Controls.Add(this.button17);
-            this.tabPage11.Controls.Add(this.BLBL2);
-            this.tabPage11.Controls.Add(this.button18);
-            this.tabPage11.Controls.Add(this.BLBL3);
-            this.tabPage11.Controls.Add(this.button19);
-            this.tabPage11.Controls.Add(this.BLBL1);
-            this.tabPage11.Controls.Add(this.button20);
-            this.tabPage11.Location = new System.Drawing.Point(4, 22);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(850, 540);
-            this.tabPage11.TabIndex = 10;
-            this.tabPage11.Text = "Bebidas ";
-            this.tabPage11.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(203)))), ((int)(((byte)(50)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(860, 429);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 58);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "GENERAR TICKET";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // listBox1
-            // 
-            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox1.BackColor = System.Drawing.Color.White;
-            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.listBox1.ForeColor = System.Drawing.Color.Black;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "PRODUCTOS DE LA ORDEN: "});
-            this.listBox1.Location = new System.Drawing.Point(860, 19);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(159, 392);
-            this.listBox1.TabIndex = 0;
-            // 
-            // button2
-            // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(860, 493);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 58);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "CERRAR SESIÓN";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(468, 247);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 25);
-            this.label1.TabIndex = 32;
-            this.label1.Text = "MISO $110";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label9
-            // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(468, 487);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(191, 25);
-            this.label9.TabIndex = 34;
-            this.label9.Text = "SHIO $130";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // olbl2
             // 
             this.olbl2.BackColor = System.Drawing.Color.Transparent;
@@ -580,6 +494,24 @@ namespace Examen1
             this.button16.TabIndex = 33;
             this.button16.UseVisualStyleBackColor = true;
             this.button16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button16_MouseDown);
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.Controls.Add(this.BLBL4);
+            this.tabPage11.Controls.Add(this.button17);
+            this.tabPage11.Controls.Add(this.BLBL2);
+            this.tabPage11.Controls.Add(this.button18);
+            this.tabPage11.Controls.Add(this.BLBL3);
+            this.tabPage11.Controls.Add(this.button19);
+            this.tabPage11.Controls.Add(this.BLBL1);
+            this.tabPage11.Controls.Add(this.button20);
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage11.Size = new System.Drawing.Size(850, 540);
+            this.tabPage11.TabIndex = 10;
+            this.tabPage11.Text = "Bebidas ";
+            this.tabPage11.UseVisualStyleBackColor = true;
             // 
             // BLBL4
             // 
@@ -673,6 +605,85 @@ namespace Examen1
             this.button20.UseVisualStyleBackColor = true;
             this.button20.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button20_MouseDown);
             // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(203)))), ((int)(((byte)(50)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(860, 429);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(159, 58);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "GENERAR TICKET";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBox1.BackColor = System.Drawing.Color.White;
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.listBox1.ForeColor = System.Drawing.Color.Black;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(860, 71);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(159, 340);
+            this.listBox1.TabIndex = 0;
+            // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(860, 493);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(159, 58);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "CERRAR SESIÓN";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(468, 247);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(191, 25);
+            this.label1.TabIndex = 32;
+            this.label1.Text = "MISO $110";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label9.Location = new System.Drawing.Point(468, 487);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(191, 25);
+            this.label9.TabIndex = 34;
+            this.label9.Text = "SHIO $130";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("MV Boli", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label7.Location = new System.Drawing.Point(860, 17);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(159, 41);
+            this.label7.TabIndex = 27;
+            this.label7.Text = "Productos de la orden";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -680,6 +691,7 @@ namespace Examen1
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1031, 563);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
@@ -746,5 +758,6 @@ namespace Examen1
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Label BLBL1;
         private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Label label7;
     }
 }

@@ -19,6 +19,23 @@ namespace Examen1
         //public static int total = 0;
         int orden = 0;
         public int TotalArticulos = 0;
+        public int hosomakis = 0;
+        public int gunkans = 0;
+        public int uramaki = 0;
+        public int maki = 0;
+        public int pescado = 0;
+        public int verduras = 0;
+        public int maitake = 0;
+        public int tonkotsu = 0;
+        public int miso = 0;
+        public  int shoyu = 0;
+        public int shio = 0;
+        public int clasico = 0;
+        public int asado = 0;
+        public int limonada = 0;
+        public int matcha = 0;
+        public int agua = 0;
+        public int sodas = 0;
         public static double totalTicket = 0.00;
         public int nigiris = 0;
         public bool c;
@@ -64,8 +81,10 @@ namespace Examen1
                 "TICKET DE COMPRA",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information);
-            TotalArticulos = nigiris = 0;
+            TotalArticulos = nigiris = hosomakis = gunkans = uramaki = maki = pescado = verduras = maitake = tonkotsu = miso = shoyu = shio = clasico = asado = limonada = matcha = agua = sodas = 0;
             totalTicket = 0;
+            listBox1.Items.Clear();
+            sb.Append("PRODUCTOS DE LA ORDEN:");
         }
         public bool Bool(bool x) 
         {
@@ -79,9 +98,9 @@ namespace Examen1
             }
         
         }
-        public void Anotar(int producto, string texto)
+        public void Anotar(bool c, int producto, string texto)
         {
-            if (producto >= 1)
+            if (c == true && producto >= 1)
             {
                 TotalArticulos++;
                 listBox1.Items.Add(texto);
@@ -116,320 +135,303 @@ namespace Examen1
             if (e.Button == MouseButtons.Left)
             {
                 nigiris++;
-                Anotar(nigiris, lbl1.Text);
+                Anotar(true, nigiris, lbl1.Text);
                 ActualizarTicket(c=true, PrecioNigiri);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 nigiris--;
-                Anotar(nigiris, lbl1.Text);
+                Anotar(false, nigiris, lbl1.Text);
                 ActualizarTicket(c = false, PrecioNigiri);
             }
         }
 
         private void button4_MouseDown(object sender, MouseEventArgs e)
         {
-            int hosomakis = 0;
             double PrecioHosomaki = 120.00;
             if (e.Button == MouseButtons.Left)
             {
                 hosomakis++;
-                Anotar(hosomakis, lbl2.Text);
+                Anotar(true, hosomakis, lbl2.Text);
                 ActualizarTicket(c= true, PrecioHosomaki);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 hosomakis--;
-                Anotar(hosomakis, lbl2.Text);
+                Anotar(false, hosomakis, lbl2.Text);
                 ActualizarTicket(c = false, PrecioHosomaki);
             }
         }
 
         private void button5_MouseDown(object sender, MouseEventArgs e)
         {
-            int gunkans = 0;
             double PrecioGunkans = 120.00;
             if (e.Button == MouseButtons.Left)
             {
                 gunkans++;
-                Anotar(gunkans, lbl3.Text);
+                Anotar(true, gunkans, lbl3.Text);
                 ActualizarTicket(c = true, PrecioGunkans);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 gunkans--;
-                Anotar(gunkans, lbl3.Text);
+                Anotar(false, gunkans, lbl3.Text);
                 ActualizarTicket(c = false, PrecioGunkans);
             }
         }
 
         private void button6_MouseDown(object sender, MouseEventArgs e)
         {
-            int uramaki = 0;
             double PrecioUramaki = 150.00;
             if (e.Button == MouseButtons.Left)
             {
                 uramaki++;
-                Anotar(uramaki,label2.Text);
+                Anotar(true, uramaki,label2.Text);
                 ActualizarTicket(c = true, PrecioUramaki);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 uramaki--;
-                Anotar(uramaki, label2.Text);
+                Anotar(false, uramaki, label2.Text);
                 ActualizarTicket(c = false, PrecioUramaki);
             }
         }
 
         private void button7_MouseDown(object sender, MouseEventArgs e)
         {
-            int gunkans = 0;
-            double PrecioGunkans = 140.00;
+            double PrecioMaki = 140.00;
             if (e.Button == MouseButtons.Left)
             {
-                gunkans++;
-                Anotar(gunkans, label3.Text);
-                ActualizarTicket(c = true, PrecioGunkans);
+                maki++;
+                Anotar(true, gunkans, label3.Text);
+                ActualizarTicket(c = true, PrecioMaki);
             }
             else if (e.Button == MouseButtons.Right)
             {
-                gunkans--;
-                Anotar(gunkans, label3.Text);
-                ActualizarTicket(c = false, PrecioGunkans);
+                maki--;
+                Anotar(false, gunkans, label3.Text);
+                ActualizarTicket(c = false, PrecioMaki);
             }
         }
 
 
         private void button10_MouseDown(object sender, MouseEventArgs e)
         {
-            int pescado = 0;
             double PrecioPescado = 140.00;
             if (e.Button == MouseButtons.Left)
             {
                 pescado++;
-                Anotar(pescado, label3.Text);
+                Anotar(true, pescado, label6.Text);
                 ActualizarTicket(c = true, PrecioPescado);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 pescado--;
-                Anotar(pescado, label3.Text);
+                Anotar(false, pescado, label6.Text);
                 ActualizarTicket(c = false, PrecioPescado);
             }
         }
 
         private void button9_MouseDown(object sender, MouseEventArgs e)
         {
-            int verduras = 0;
             double PrecioVerduras = 140.00;
             if (e.Button == MouseButtons.Left)
             {
                 verduras++;
-                Anotar(verduras, label3.Text);
+                Anotar(true, verduras, label5.Text);
                 ActualizarTicket(c = true, PrecioVerduras);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 verduras--;
-                Anotar(verduras, label3.Text);
+                Anotar(false, verduras, label5.Text);
                 ActualizarTicket(c = false, PrecioVerduras);
             }
         }
 
         private void button8_MouseDown(object sender, MouseEventArgs e)
         {
-            int maitake = 0;
             double PrecioMaitake = 60.00;
             if (e.Button == MouseButtons.Left)
             {
                 maitake++;
-                Anotar(maitake, label3.Text);
+                Anotar(true, maitake, label4.Text);
                 ActualizarTicket(c = true, PrecioMaitake);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 maitake--;
-                Anotar(maitake, label3.Text);
+                Anotar(false, maitake, label4.Text);
                 ActualizarTicket(c = false, PrecioMaitake);
             }
         }
 
         private void button13_MouseDown(object sender, MouseEventArgs e)
         {
-            int tonkotsu = 0;
             double Preciotonkotsu = 160.00;
             if (e.Button == MouseButtons.Left)
             {
                 tonkotsu++;
-                Anotar(tonkotsu, rlbl1.Text);
+                Anotar(true, tonkotsu, rlbl1.Text);
                 ActualizarTicket(c = true, Preciotonkotsu);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 tonkotsu--;
-                Anotar(tonkotsu, rlbl1.Text);
+                Anotar(false, tonkotsu, rlbl1.Text);
                 ActualizarTicket(c = false, Preciotonkotsu);
             }
         }
 
         private void button11_MouseDown(object sender, MouseEventArgs e)
         {
-            int miso = 0;
             double PrecioMiso = 110.00;
             if (e.Button == MouseButtons.Left)
             {
                 miso++;
-                Anotar(miso, rlbl2.Text);
+                Anotar(true, miso, rlbl2.Text);
                 ActualizarTicket(c = true, PrecioMiso);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 miso--;
-                Anotar(miso, rlbl2.Text);
+                Anotar(false, miso, rlbl2.Text);
                 ActualizarTicket(c = false, PrecioMiso);
             }
         }
 
         private void button12_MouseDown(object sender, MouseEventArgs e)
         {
-            int shoyu = 0;
             double PrecioShoyu = 100.00;
             if (e.Button == MouseButtons.Left)
             {
                 shoyu++;
-                Anotar(shoyu, rlbl3.Text);
+                Anotar(true, shoyu, rlbl3.Text);
                 ActualizarTicket(c = true, PrecioShoyu);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 shoyu--;
-                Anotar(shoyu, rlbl3.Text);
+                Anotar(false, shoyu, rlbl3.Text);
                 ActualizarTicket(c = false, PrecioShoyu);
             }
         }
 
         private void button14_MouseDown(object sender, MouseEventArgs e)
         {
-            int shio = 0;
             double PrecioShio = 130.00;
             if (e.Button == MouseButtons.Left)
             {
                 shio++;
-                Anotar(shio, rlbl4.Text);
+                Anotar(true, shio, rlbl4.Text);
                 ActualizarTicket(c = true, PrecioShio);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 shio--;
-                Anotar(shio, rlbl4.Text);
+                Anotar(false, shio, rlbl4.Text);
                 ActualizarTicket(c = false, PrecioShio);
             }
         }
 
         private void button16_MouseDown(object sender, MouseEventArgs e)
         {
-            int clasico = 0;
             double PrecioClasico = 40.00;
             if (e.Button == MouseButtons.Left)
             {
                 clasico++;
-                Anotar(clasico, rlbl4.Text);
+                Anotar(true, clasico, olbl1.Text);
                 ActualizarTicket(c = true, PrecioClasico);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 clasico--;
-                Anotar(clasico, olbl1.Text);
+                Anotar(false, clasico, olbl1.Text);
                 ActualizarTicket(c = false, PrecioClasico);
             }
         }
 
         private void button15_MouseDown(object sender, MouseEventArgs e)
         {
-            int clasico = 0;
-            double PrecioClasico = 65.00;
+            double PrecioAsado = 65.00;
             if (e.Button == MouseButtons.Left)
             {
-                clasico++;
-                Anotar(clasico, olbl2.Text);
-                ActualizarTicket(c = true, PrecioClasico);
+                asado++;
+                Anotar(true, clasico, olbl2.Text);
+                ActualizarTicket(c = true, PrecioAsado);
             }
             else if (e.Button == MouseButtons.Right)
             {
-                clasico--;
-                Anotar(clasico, rlbl4.Text);
-                ActualizarTicket(c = false, PrecioClasico);
+                asado--;
+                Anotar(false, clasico, olbl2.Text);
+                ActualizarTicket(c = false, PrecioAsado);
             }
         }
 
         private void button20_MouseDown(object sender, MouseEventArgs e)
         {
-            int limonada = 0;
             double PrecioLimonada = 30.00;
             if (e.Button == MouseButtons.Left)
             {
                 limonada++;
-                Anotar(limonada, olbl2.Text);
+                Anotar(true, limonada, BLBL1.Text);
                 ActualizarTicket(c = true, PrecioLimonada);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 limonada--;
-                Anotar(limonada, rlbl4.Text);
+                Anotar(false, limonada, BLBL1.Text);
                 ActualizarTicket(c = false, PrecioLimonada);
             }
         }
 
         private void button18_MouseDown(object sender, MouseEventArgs e)
         {
-            int matcha = 0;
             double PrecioMatcha = 50.00;
             if (e.Button == MouseButtons.Left)
             {
                 matcha++;
-                Anotar(matcha, olbl2.Text);
+                Anotar(true, matcha, BLBL2.Text);
                 ActualizarTicket(c = true, PrecioMatcha);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 matcha--;
-                Anotar(matcha, rlbl4.Text);
+                Anotar(false, matcha, BLBL2.Text);
                 ActualizarTicket(c = false, PrecioMatcha);
             }
         }
 
         private void button19_MouseDown(object sender, MouseEventArgs e)
         {
-            int agua = 0;
             double PrecioAgua = 30.00;
             if (e.Button == MouseButtons.Left)
             {
                 agua++;
-                Anotar(agua, olbl2.Text);
+                Anotar(true, agua, BLBL3.Text);
                 ActualizarTicket(c = true, PrecioAgua);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 agua--;
-                Anotar(agua, rlbl4.Text);
+                Anotar(false, agua, BLBL3.Text);
                 ActualizarTicket(c = false, PrecioAgua);
             }
         }
 
         private void button17_MouseDown(object sender, MouseEventArgs e)
         {
-            int sodas = 0;
             double PrecioSodas = 30.00;
             if (e.Button == MouseButtons.Left)
             {
                 sodas++;
-                Anotar(sodas, olbl2.Text);
+                Anotar(true, sodas, BLBL4.Text);
                 ActualizarTicket(c = true, PrecioSodas);
             }
             else if (e.Button == MouseButtons.Right)
             {
                 sodas--;
-                Anotar(sodas, rlbl4.Text);
+                Anotar(false, sodas, BLBL4.Text);
                 ActualizarTicket(c = false, PrecioSodas);
             }
         }
