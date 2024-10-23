@@ -45,11 +45,11 @@ namespace Examen1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Papyrus", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(128, 140);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(197, 58);
+            this.label1.Size = new System.Drawing.Size(151, 42);
             this.label1.TabIndex = 2;
             this.label1.Text = "LOG-IN";
             // 

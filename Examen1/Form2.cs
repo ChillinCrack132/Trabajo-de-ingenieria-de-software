@@ -49,13 +49,11 @@ namespace Examen1
             suma(Bool(checkBox13.Checked), 80);
             suma(Bool(checkBox14.Checked), 70);
             suma(Bool(checkBox15.Checked), 40);
-            suma(Bool(checkBox16.Checked), 50);
             suma(Bool(checkBox17.Checked), 45);
             suma(Bool(checkBox18.Checked), 15);
             suma(Bool(checkBox19.Checked), 40);
             suma(Bool(checkBox20.Checked), 15);
             suma(Bool(checkBox21.Checked), 10);
-            suma(Bool(checkBox22.Checked), 15);
             StringBuilder sb = new StringBuilder();
 
             foreach (string item in listBox1.Items)
@@ -72,7 +70,7 @@ namespace Examen1
                 "\n" + sb.ToString() +
                 "\nTOTAL: $" + total + " MXN" +
                 "\nGracias por su compra",
-                "TIKET DE COMPRA",
+                "TICKET DE COMPRA",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information);
         }
@@ -175,11 +173,6 @@ namespace Examen1
             Anotar(checkBox15.Checked, checkBox15.Text);
         }
 
-        private void checkBox16_Click(object sender, EventArgs e)
-        {
-            Anotar(checkBox16.Checked, checkBox16.Text);
-        }
-
         private void checkBox17_Click(object sender, EventArgs e)
         {
             Anotar(checkBox17.Checked, checkBox17.Text);
@@ -202,11 +195,6 @@ namespace Examen1
         private void checkBox21_Click(object sender, EventArgs e)
         {
             Anotar(checkBox21.Checked, checkBox21.Text);
-        }
-
-        private void checkBox22_Click(object sender, EventArgs e)
-        {
-            Anotar(checkBox22.Checked, checkBox22.Text);
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)

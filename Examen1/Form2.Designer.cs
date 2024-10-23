@@ -32,10 +32,6 @@ namespace Examen1
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.button1 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.button2 = new System.Windows.Forms.Button();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -71,21 +67,21 @@ namespace Examen1
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.checkBox15 = new System.Windows.Forms.CheckBox();
             this.tabPage11 = new System.Windows.Forms.TabPage();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
             this.checkBox21 = new System.Windows.Forms.CheckBox();
             this.checkBox20 = new System.Windows.Forms.CheckBox();
             this.checkBox19 = new System.Windows.Forms.CheckBox();
             this.checkBox18 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.button2 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -106,10 +102,8 @@ namespace Examen1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.tabPage11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
@@ -126,49 +120,8 @@ namespace Examen1
             this.tabControl1.Location = new System.Drawing.Point(-4, -3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(747, 453);
+            this.tabControl1.Size = new System.Drawing.Size(858, 566);
             this.tabControl1.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(203)))), ((int)(((byte)(50)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(749, 316);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 58);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "GENERAR TICKET";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // listBox1
-            // 
-            this.listBox1.BackColor = System.Drawing.Color.White;
-            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.listBox1.ForeColor = System.Drawing.Color.Black;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "SUB-TOTAL"});
-            this.listBox1.Location = new System.Drawing.Point(749, 19);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(155, 288);
-            this.listBox1.TabIndex = 0;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(749, 380);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 58);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "CERRAR SESIÓN";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // tabPage1
             // 
@@ -183,11 +136,13 @@ namespace Examen1
             this.tabPage1.Controls.Add(this.checkBox3);
             this.tabPage1.Controls.Add(this.checkBox2);
             this.tabPage1.Controls.Add(this.checkBox1);
-            this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage1.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(739, 427);
+            this.tabPage1.Size = new System.Drawing.Size(850, 540);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Makis";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -249,9 +204,9 @@ namespace Examen1
             this.checkBox5.ForeColor = System.Drawing.Color.Black;
             this.checkBox5.Location = new System.Drawing.Point(272, 221);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(119, 40);
+            this.checkBox5.Size = new System.Drawing.Size(114, 40);
             this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "MAKY $140";
+            this.checkBox5.Text = "MAKI $140";
             this.checkBox5.UseVisualStyleBackColor = true;
             this.checkBox5.Click += new System.EventHandler(this.checkBox5_Click);
             // 
@@ -264,7 +219,7 @@ namespace Examen1
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(148, 40);
             this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "URIMAKY $150";
+            this.checkBox4.Text = "URAMAKI $150";
             this.checkBox4.UseVisualStyleBackColor = true;
             this.checkBox4.Click += new System.EventHandler(this.checkBox4_Click);
             // 
@@ -288,9 +243,9 @@ namespace Examen1
             this.checkBox2.ForeColor = System.Drawing.Color.Black;
             this.checkBox2.Location = new System.Drawing.Point(273, 30);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(156, 40);
+            this.checkBox2.Size = new System.Drawing.Size(168, 40);
             this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "OSOMAKY  $120";
+            this.checkBox2.Text = "HOSOMAKY  $120";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.Click += new System.EventHandler(this.checkBox2_Click);
             // 
@@ -317,10 +272,11 @@ namespace Examen1
             this.tabPage2.Controls.Add(this.pictureBox9);
             this.tabPage2.Controls.Add(this.pictureBox8);
             this.tabPage2.Controls.Add(this.pictureBox7);
+            this.tabPage2.Cursor = System.Windows.Forms.Cursors.Default;
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(739, 427);
+            this.tabPage2.Size = new System.Drawing.Size(892, 540);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Tempura";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -421,7 +377,7 @@ namespace Examen1
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(739, 427);
+            this.tabPage3.Size = new System.Drawing.Size(892, 540);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Ramen";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -563,14 +519,12 @@ namespace Examen1
             this.tabPage7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage7.BackgroundImage")));
             this.tabPage7.Controls.Add(this.pictureBox18);
             this.tabPage7.Controls.Add(this.checkBox17);
-            this.tabPage7.Controls.Add(this.pictureBox17);
-            this.tabPage7.Controls.Add(this.checkBox16);
             this.tabPage7.Controls.Add(this.pictureBox16);
             this.tabPage7.Controls.Add(this.checkBox15);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(739, 427);
+            this.tabPage7.Size = new System.Drawing.Size(892, 540);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Onigiri";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -578,7 +532,7 @@ namespace Examen1
             // pictureBox18
             // 
             this.pictureBox18.Image = global::Examen1.Properties.Resources.tuna;
-            this.pictureBox18.Location = new System.Drawing.Point(499, 228);
+            this.pictureBox18.Location = new System.Drawing.Point(463, 144);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(182, 144);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -589,7 +543,7 @@ namespace Examen1
             // 
             this.checkBox17.AutoSize = true;
             this.checkBox17.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox17.Location = new System.Drawing.Point(499, 205);
+            this.checkBox17.Location = new System.Drawing.Point(463, 121);
             this.checkBox17.Name = "checkBox17";
             this.checkBox17.Size = new System.Drawing.Size(183, 40);
             this.checkBox17.TabIndex = 4;
@@ -597,32 +551,10 @@ namespace Examen1
             this.checkBox17.UseVisualStyleBackColor = true;
             this.checkBox17.Click += new System.EventHandler(this.checkBox17_Click);
             // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::Examen1.Properties.Resources.onigiri2;
-            this.pictureBox17.Location = new System.Drawing.Point(266, 154);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(182, 144);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 3;
-            this.pictureBox17.TabStop = false;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox16.Location = new System.Drawing.Point(266, 131);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(178, 40);
-            this.checkBox16.TabIndex = 2;
-            this.checkBox16.Text = "ORIGINI YANG $50";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            this.checkBox16.Click += new System.EventHandler(this.checkBox16_Click);
-            // 
             // pictureBox16
             // 
             this.pictureBox16.Image = global::Examen1.Properties.Resources.onigiri1;
-            this.pictureBox16.Location = new System.Drawing.Point(32, 57);
+            this.pictureBox16.Location = new System.Drawing.Point(120, 144);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(182, 144);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -633,7 +565,7 @@ namespace Examen1
             // 
             this.checkBox15.AutoSize = true;
             this.checkBox15.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox15.Location = new System.Drawing.Point(32, 34);
+            this.checkBox15.Location = new System.Drawing.Point(120, 121);
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(207, 40);
             this.checkBox15.TabIndex = 0;
@@ -644,12 +576,10 @@ namespace Examen1
             // tabPage11
             // 
             this.tabPage11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage11.BackgroundImage")));
-            this.tabPage11.Controls.Add(this.pictureBox23);
             this.tabPage11.Controls.Add(this.pictureBox22);
             this.tabPage11.Controls.Add(this.pictureBox21);
             this.tabPage11.Controls.Add(this.pictureBox20);
             this.tabPage11.Controls.Add(this.pictureBox19);
-            this.tabPage11.Controls.Add(this.checkBox22);
             this.tabPage11.Controls.Add(this.checkBox21);
             this.tabPage11.Controls.Add(this.checkBox20);
             this.tabPage11.Controls.Add(this.checkBox19);
@@ -657,25 +587,15 @@ namespace Examen1
             this.tabPage11.Location = new System.Drawing.Point(4, 22);
             this.tabPage11.Name = "tabPage11";
             this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(739, 427);
+            this.tabPage11.Size = new System.Drawing.Size(892, 540);
             this.tabPage11.TabIndex = 10;
             this.tabPage11.Text = "Bebidas ";
             this.tabPage11.UseVisualStyleBackColor = true;
             // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Image = global::Examen1.Properties.Resources.aguas;
-            this.pictureBox23.Location = new System.Drawing.Point(267, 327);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(162, 96);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox23.TabIndex = 11;
-            this.pictureBox23.TabStop = false;
-            // 
             // pictureBox22
             // 
             this.pictureBox22.Image = global::Examen1.Properties.Resources.sistema_de_latas_de_soda_43232576;
-            this.pictureBox22.Location = new System.Drawing.Point(446, 198);
+            this.pictureBox22.Location = new System.Drawing.Point(456, 251);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(162, 96);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -685,7 +605,7 @@ namespace Examen1
             // pictureBox21
             // 
             this.pictureBox21.Image = global::Examen1.Properties.Resources.images_2_9;
-            this.pictureBox21.Location = new System.Drawing.Point(76, 198);
+            this.pictureBox21.Location = new System.Drawing.Point(86, 251);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(162, 96);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -695,7 +615,7 @@ namespace Examen1
             // pictureBox20
             // 
             this.pictureBox20.Image = global::Examen1.Properties.Resources.ceremona_del_te;
-            this.pictureBox20.Location = new System.Drawing.Point(446, 44);
+            this.pictureBox20.Location = new System.Drawing.Point(456, 97);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(162, 107);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -705,30 +625,18 @@ namespace Examen1
             // pictureBox19
             // 
             this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(76, 44);
+            this.pictureBox19.Location = new System.Drawing.Point(86, 97);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(162, 107);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox19.TabIndex = 7;
             this.pictureBox19.TabStop = false;
             // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox22.Location = new System.Drawing.Point(76, 327);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(205, 40);
-            this.checkBox22.TabIndex = 6;
-            this.checkBox22.Text = "AGUAS DE SABOR  $15";
-            this.checkBox22.UseVisualStyleBackColor = true;
-            this.checkBox22.Click += new System.EventHandler(this.checkBox22_Click);
-            // 
             // checkBox21
             // 
             this.checkBox21.AutoSize = true;
             this.checkBox21.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox21.Location = new System.Drawing.Point(76, 172);
+            this.checkBox21.Location = new System.Drawing.Point(86, 225);
             this.checkBox21.Name = "checkBox21";
             this.checkBox21.Size = new System.Drawing.Size(240, 40);
             this.checkBox21.TabIndex = 5;
@@ -740,7 +648,7 @@ namespace Examen1
             // 
             this.checkBox20.AutoSize = true;
             this.checkBox20.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox20.Location = new System.Drawing.Point(446, 172);
+            this.checkBox20.Location = new System.Drawing.Point(456, 225);
             this.checkBox20.Name = "checkBox20";
             this.checkBox20.Size = new System.Drawing.Size(118, 40);
             this.checkBox20.TabIndex = 4;
@@ -752,7 +660,7 @@ namespace Examen1
             // 
             this.checkBox19.AutoSize = true;
             this.checkBox19.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox19.Location = new System.Drawing.Point(446, 21);
+            this.checkBox19.Location = new System.Drawing.Point(456, 74);
             this.checkBox19.Name = "checkBox19";
             this.checkBox19.Size = new System.Drawing.Size(134, 40);
             this.checkBox19.TabIndex = 2;
@@ -764,7 +672,7 @@ namespace Examen1
             // 
             this.checkBox18.AutoSize = true;
             this.checkBox18.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox18.Location = new System.Drawing.Point(85, 14);
+            this.checkBox18.Location = new System.Drawing.Point(95, 67);
             this.checkBox18.Name = "checkBox18";
             this.checkBox18.Size = new System.Drawing.Size(154, 40);
             this.checkBox18.TabIndex = 0;
@@ -772,13 +680,58 @@ namespace Examen1
             this.checkBox18.UseVisualStyleBackColor = true;
             this.checkBox18.Click += new System.EventHandler(this.checkBox18_Click);
             // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(203)))), ((int)(((byte)(50)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(860, 429);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(159, 58);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "GENERAR TICKET";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBox1.BackColor = System.Drawing.Color.White;
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.listBox1.ForeColor = System.Drawing.Color.Black;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "SUB-TOTAL"});
+            this.listBox1.Location = new System.Drawing.Point(860, 19);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(155, 392);
+            this.listBox1.TabIndex = 0;
+            // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(860, 493);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(159, 58);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "CERRAR SESIÓN";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(920, 450);
+            this.ClientSize = new System.Drawing.Size(1031, 563);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
@@ -810,11 +763,9 @@ namespace Examen1
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.tabPage11.ResumeLayout(false);
             this.tabPage11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
@@ -862,19 +813,15 @@ namespace Examen1
         private System.Windows.Forms.CheckBox checkBox9;
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.CheckBox checkBox16;
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.CheckBox checkBox15;
         private System.Windows.Forms.TabPage tabPage11;
-        private System.Windows.Forms.CheckBox checkBox22;
         private System.Windows.Forms.CheckBox checkBox21;
         private System.Windows.Forms.CheckBox checkBox20;
         private System.Windows.Forms.CheckBox checkBox19;
         private System.Windows.Forms.CheckBox checkBox18;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox23;
         private System.Windows.Forms.PictureBox pictureBox22;
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.PictureBox pictureBox20;

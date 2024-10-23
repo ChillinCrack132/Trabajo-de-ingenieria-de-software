@@ -63,6 +63,46 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _172107835072463555 {
+            get {
+                object obj = ResourceManager.GetObject("172107835072463555", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _172107835072463555__1_ {
+            get {
+                object obj = ResourceManager.GetObject("172107835072463555 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _172107835072463555__2_ {
+            get {
+                object obj = ResourceManager.GetObject("172107835072463555 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _172107835072463555__3_ {
+            get {
+                object obj = ResourceManager.GetObject("172107835072463555 (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _465860 {
             get {
                 object obj = ResourceManager.GetObject("465860", resourceCulture);
@@ -256,6 +296,16 @@ namespace Examen1.Properties {
         internal static System.Drawing.Bitmap pescado {
             get {
                 object obj = ResourceManager.GetObject("pescado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngimg_com___sushi_PNG9267 {
+            get {
+                object obj = ResourceManager.GetObject("pngimg.com - sushi_PNG9267", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
