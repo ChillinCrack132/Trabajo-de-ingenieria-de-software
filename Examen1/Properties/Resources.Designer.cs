@@ -173,26 +173,6 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hakata_tonkotsu_ramen {
-            get {
-                object obj = ResourceManager.GetObject("hakata tonkotsu ramen", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap hakodate_ramen {
-            get {
-                object obj = ResourceManager.GetObject("hakodate ramen", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap hosomaki {
             get {
                 object obj = ResourceManager.GetObject("hosomaki", resourceCulture);
@@ -216,6 +196,16 @@ namespace Examen1.Properties {
         internal static System.Drawing.Bitmap japan {
             get {
                 object obj = ResourceManager.GetObject("japan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap japan1 {
+            get {
+                object obj = ResourceManager.GetObject("japan1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -366,16 +356,6 @@ namespace Examen1.Properties {
         internal static System.Drawing.Bitmap tuna {
             get {
                 object obj = ResourceManager.GetObject("tuna", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap unnamed {
-            get {
-                object obj = ResourceManager.GetObject("unnamed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
