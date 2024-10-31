@@ -118,7 +118,7 @@ namespace Examen1
             this.tabPage1.Controls.Add(this.lbl1);
             this.tabPage1.Controls.Add(this.button3);
             this.tabPage1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.tabPage1.Font = new System.Drawing.Font("MV Boli", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage1.Font = new System.Drawing.Font("MV Boli", 25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.tabPage1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tabPage1.Location = new System.Drawing.Point(4, 44);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
@@ -264,7 +264,7 @@ namespace Examen1
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.button8);
             this.tabPage2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.tabPage2.Font = new System.Drawing.Font("MV Boli", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage2.Font = new System.Drawing.Font("MV Boli", 25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.tabPage2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage2.Location = new System.Drawing.Point(4, 44);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
@@ -277,9 +277,9 @@ namespace Examen1
             // 
             // label6
             // 
-            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.BackColor = System.Drawing.Color.Black;
             this.label6.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(421, 402);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
@@ -302,9 +302,9 @@ namespace Examen1
             // 
             // label5
             // 
-            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.BackColor = System.Drawing.Color.Black;
             this.label5.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(777, 402);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
@@ -327,9 +327,9 @@ namespace Examen1
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.BackColor = System.Drawing.Color.Black;
             this.label4.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(68, 402);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
@@ -361,7 +361,7 @@ namespace Examen1
             this.tabPage3.Controls.Add(this.button12);
             this.tabPage3.Controls.Add(this.rlbl1);
             this.tabPage3.Controls.Add(this.button13);
-            this.tabPage3.Font = new System.Drawing.Font("MV Boli", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage3.Font = new System.Drawing.Font("MV Boli", 25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.tabPage3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage3.Location = new System.Drawing.Point(4, 44);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
@@ -376,7 +376,7 @@ namespace Examen1
             // 
             this.rlbl4.BackColor = System.Drawing.Color.Transparent;
             this.rlbl4.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rlbl4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rlbl4.ForeColor = System.Drawing.SystemColors.Window;
             this.rlbl4.Location = new System.Drawing.Point(624, 599);
             this.rlbl4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.rlbl4.Name = "rlbl4";
@@ -401,7 +401,7 @@ namespace Examen1
             // 
             this.rlbl2.BackColor = System.Drawing.Color.Transparent;
             this.rlbl2.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rlbl2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rlbl2.ForeColor = System.Drawing.SystemColors.Window;
             this.rlbl2.Location = new System.Drawing.Point(624, 304);
             this.rlbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.rlbl2.Name = "rlbl2";
@@ -426,7 +426,7 @@ namespace Examen1
             // 
             this.rlbl3.BackColor = System.Drawing.Color.Transparent;
             this.rlbl3.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rlbl3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rlbl3.ForeColor = System.Drawing.SystemColors.Window;
             this.rlbl3.Location = new System.Drawing.Point(271, 599);
             this.rlbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.rlbl3.Name = "rlbl3";
@@ -451,7 +451,7 @@ namespace Examen1
             // 
             this.rlbl1.BackColor = System.Drawing.Color.Transparent;
             this.rlbl1.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rlbl1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rlbl1.ForeColor = System.Drawing.SystemColors.Window;
             this.rlbl1.Location = new System.Drawing.Point(271, 304);
             this.rlbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.rlbl1.Name = "rlbl1";
@@ -479,7 +479,7 @@ namespace Examen1
             this.tabPage7.Controls.Add(this.button15);
             this.tabPage7.Controls.Add(this.olbl1);
             this.tabPage7.Controls.Add(this.button16);
-            this.tabPage7.Font = new System.Drawing.Font("MV Boli", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage7.Font = new System.Drawing.Font("MV Boli", 25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.tabPage7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage7.Location = new System.Drawing.Point(4, 44);
             this.tabPage7.Margin = new System.Windows.Forms.Padding(4);
@@ -494,7 +494,7 @@ namespace Examen1
             // 
             this.olbl2.BackColor = System.Drawing.Color.Transparent;
             this.olbl2.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.olbl2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.olbl2.ForeColor = System.Drawing.SystemColors.Window;
             this.olbl2.Location = new System.Drawing.Point(621, 411);
             this.olbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.olbl2.Name = "olbl2";
@@ -519,7 +519,7 @@ namespace Examen1
             // 
             this.olbl1.BackColor = System.Drawing.Color.Transparent;
             this.olbl1.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.olbl1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.olbl1.ForeColor = System.Drawing.SystemColors.Window;
             this.olbl1.Location = new System.Drawing.Point(268, 411);
             this.olbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.olbl1.Name = "olbl1";
@@ -551,7 +551,7 @@ namespace Examen1
             this.tabPage11.Controls.Add(this.button19);
             this.tabPage11.Controls.Add(this.BLBL1);
             this.tabPage11.Controls.Add(this.button20);
-            this.tabPage11.Font = new System.Drawing.Font("MV Boli", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage11.Font = new System.Drawing.Font("MV Boli", 25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.tabPage11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage11.Location = new System.Drawing.Point(4, 44);
             this.tabPage11.Margin = new System.Windows.Forms.Padding(4);
@@ -566,7 +566,7 @@ namespace Examen1
             // 
             this.BLBL4.BackColor = System.Drawing.Color.Transparent;
             this.BLBL4.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BLBL4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BLBL4.ForeColor = System.Drawing.SystemColors.Window;
             this.BLBL4.Location = new System.Drawing.Point(617, 577);
             this.BLBL4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BLBL4.Name = "BLBL4";
@@ -591,7 +591,7 @@ namespace Examen1
             // 
             this.BLBL2.BackColor = System.Drawing.Color.Transparent;
             this.BLBL2.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BLBL2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BLBL2.ForeColor = System.Drawing.SystemColors.Window;
             this.BLBL2.Location = new System.Drawing.Point(617, 282);
             this.BLBL2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BLBL2.Name = "BLBL2";
@@ -616,7 +616,7 @@ namespace Examen1
             // 
             this.BLBL3.BackColor = System.Drawing.Color.Transparent;
             this.BLBL3.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BLBL3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BLBL3.ForeColor = System.Drawing.SystemColors.Window;
             this.BLBL3.Location = new System.Drawing.Point(264, 577);
             this.BLBL3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BLBL3.Name = "BLBL3";
@@ -641,7 +641,7 @@ namespace Examen1
             // 
             this.BLBL1.BackColor = System.Drawing.Color.Transparent;
             this.BLBL1.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BLBL1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BLBL1.ForeColor = System.Drawing.SystemColors.Window;
             this.BLBL1.Location = new System.Drawing.Point(264, 282);
             this.BLBL1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BLBL1.Name = "BLBL1";
