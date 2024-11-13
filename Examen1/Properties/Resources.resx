@@ -124,11 +124,14 @@
   <data name="torii-fushimi-inari-taisha-shinto-shrine-japanese-architecture-wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\torii-fushimi-inari-taisha-shinto-shrine-japanese-architecture-wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="caption1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caption1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sistema-de-latas-de-soda-43232576" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sistema-de-latas-de-soda-43232576.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hosomaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\hosomaki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="maki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\maki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wakayama ramen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\wakayama ramen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,20 +145,14 @@
   <data name="urimaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\urimaki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pescado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\pescado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maki" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\maki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="172107835072463555 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\172107835072463555 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="aguas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\aguas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="onigiri1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\onigiri1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images-2-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images-2-9.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="japan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\japan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nigiri" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\nigiri.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,11 +178,14 @@
   <data name="ceremona-del-te" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ceremona-del-te.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="onigiri1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\onigiri1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hosomaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\hosomaki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="soki soba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\soki soba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images-2-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images-2-9.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vajilla-japonesa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\vajilla-japonesa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,22 +202,58 @@
   <data name="172107835072463555 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\172107835072463555 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maitake" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\maitake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="onigiri2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\onigiri2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="onomichi ramen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\onomichi ramen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="caption1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\caption1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="aguas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aguas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="showa-itadakimasu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\showa-itadakimasu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="japan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\japan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Asado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clasico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clasico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunkan sushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gunkan sushi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hosomaki sushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hosomaki sushi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maitake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maitake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maki sushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maki sushi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miso.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nigiri sushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nigiri sushi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pescado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pescado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shio.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shoyu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shoyu.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tonkotsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tonkotsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uramaki sushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uramaki sushi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Verduras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Verduras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
