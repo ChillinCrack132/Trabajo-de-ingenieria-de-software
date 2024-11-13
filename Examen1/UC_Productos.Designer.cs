@@ -11,7 +11,15 @@
         /// Limpiar los recursos que se estén usando.
         /// </summary>
         /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
-        
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
         #region Código generado por el Diseñador de componentes
 
         /// <summary> 
@@ -24,6 +32,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblName = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // gunaShadowPanel1
+            // 
+
+            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.lblName);
@@ -45,15 +59,15 @@
             this.lblName.TabIndex = 2;
             this.lblName.Text = "NIGIRI";
             this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-         
-         
+
 
         }
 
         #endregion
 
+
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblName;
+
     }
 }

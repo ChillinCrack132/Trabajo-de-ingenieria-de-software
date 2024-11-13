@@ -38,6 +38,7 @@ namespace Examen1
         public int sodas = 0;
         public static double totalTicket = 0.00;
         public int nigiris = 0;
+        public double PrecioSodas = 30.00;
         public bool c;
 
         private void button1_Click(object sender, EventArgs e)
@@ -46,7 +47,7 @@ namespace Examen1
             orden++;
         }
 
-        private void ActualizarTicket(bool c, double precio)
+        public void ActualizarTicket(bool c, double precio)
         {
             if (c == true)
             {
@@ -84,7 +85,6 @@ namespace Examen1
             TotalArticulos = nigiris = hosomakis = gunkans = uramaki = maki = pescado = verduras = maitake = tonkotsu = miso = shoyu = shio = clasico = asado = limonada = matcha = agua = sodas = 0;
             totalTicket = 0;
             listBox1.Items.Clear();
-            sb.Append("PRODUCTOS DE LA ORDEN:");
         }
         public bool Bool(bool x) 
         {
@@ -421,19 +421,22 @@ namespace Examen1
 
         private void button17_MouseDown(object sender, MouseEventArgs e)
         {
-            double PrecioSodas = 30.00;
             if (e.Button == MouseButtons.Left)
             {
-                sodas++;
+                Sodas SODA = new Sodas(this);
+                SODA.ShowDialog();
+                /*sodas++;
                 Anotar(true, sodas, BLBL4.Text);
-                ActualizarTicket(c = true, PrecioSodas);
+                ActualizarTicket(c = true, PrecioSodas);*/
             }
             else if (e.Button == MouseButtons.Right)
             {
                 sodas--;
-                Anotar(false, sodas, BLBL4.Text);
+                /*Anotar(false, sodas, BLBL4.Text);*/
                 ActualizarTicket(c = false, PrecioSodas);
             }
         }
+
+
     }
 }

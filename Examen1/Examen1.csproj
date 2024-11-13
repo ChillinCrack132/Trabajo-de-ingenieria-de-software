@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Guna.Charts.WinForms, Version=1.0.9.0, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
-      <HintPath>..\packages\Guna.Charts.WinForms.1.0.9\lib\net472\Guna.Charts.WinForms.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -72,13 +69,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Sodas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sodas.Designer.cs">
+      <DependentUpon>Sodas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ticket.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Ticket.Designer.cs">
       <DependentUpon>Ticket.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC_Productos.cs" />
+    <Compile Include="UC_Productos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="UC_Productos.Designer.cs">
       <DependentUpon>UC_Productos.cs</DependentUpon>
     </Compile>
@@ -92,6 +97,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sodas.resx">
+      <DependentUpon>Sodas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ticket.resx">
       <DependentUpon>Ticket.cs</DependentUpon>
@@ -114,49 +122,94 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="imagenes\nigiri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\gunkan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\hakata tonkotsu ramen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\hakodate ramen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\hosomaki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="imagenes\japan.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Asado.png" />
+    <None Include="imagenes\maitake.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Clasico.png" />
+    <None Include="imagenes\maki.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Gunkan sushi.png" />
+    <None Include="imagenes\onigiri1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Hosomaki sushi.png" />
+    <None Include="imagenes\onigiri2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Maitake.png" />
+    <None Include="imagenes\onomichi ramen.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Maki sushi.png" />
+    <None Include="imagenes\pescado.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Miso.jpeg" />
+    <None Include="imagenes\sapporo miso ramen.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Nigiri sushi.png" />
+    <None Include="imagenes\soki soba.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Pescado.png" />
+    <None Include="imagenes\torii-fushimi-inari-taisha-shinto-shrine-japanese-architecture-wallpaper.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Shio.jpeg" />
+    <None Include="imagenes\tuna.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Shoyu.jpeg" />
+    <None Include="imagenes\unnamed.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Tonkotsu.png" />
+    <None Include="imagenes\urimaki.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Uramaki sushi.png" />
+    <None Include="imagenes\vajilla-japonesa.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Verduras.png" />
+    <None Include="imagenes\verdura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\wakayama ramen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceremona-del-te.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-2-9.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sistema-de-latas-de-soda-43232576.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aguas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caption.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caption1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\465860.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4658601.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showa-itadakimasu.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

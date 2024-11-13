@@ -63,9 +63,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Asado {
+        internal static System.Drawing.Bitmap _172107835072463555 {
             get {
-                object obj = ResourceManager.GetObject("Asado", resourceCulture);
+                object obj = ResourceManager.GetObject("172107835072463555", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Clasico {
+        internal static System.Drawing.Bitmap _172107835072463555__1_ {
             get {
-                object obj = ResourceManager.GetObject("Clasico", resourceCulture);
+                object obj = ResourceManager.GetObject("172107835072463555 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Gunkan_sushi {
+        internal static System.Drawing.Bitmap _172107835072463555__2_ {
             get {
-                object obj = ResourceManager.GetObject("Gunkan sushi", resourceCulture);
+                object obj = ResourceManager.GetObject("172107835072463555 (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,99 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Hosomaki_sushi {
+        internal static System.Drawing.Bitmap _172107835072463555__3_ {
             get {
-                object obj = ResourceManager.GetObject("Hosomaki sushi", resourceCulture);
+                object obj = ResourceManager.GetObject("172107835072463555 (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _465860 {
+            get {
+                object obj = ResourceManager.GetObject("465860", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4658601 {
+            get {
+                object obj = ResourceManager.GetObject("4658601", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aguas {
+            get {
+                object obj = ResourceManager.GetObject("aguas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap caption {
+            get {
+                object obj = ResourceManager.GetObject("caption", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap caption1 {
+            get {
+                object obj = ResourceManager.GetObject("caption1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ceremona_del_te {
+            get {
+                object obj = ResourceManager.GetObject("ceremona-del-te", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gunkan {
+            get {
+                object obj = ResourceManager.GetObject("gunkan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hosomaki {
+            get {
+                object obj = ResourceManager.GetObject("hosomaki", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images_2_9 {
+            get {
+                object obj = ResourceManager.GetObject("images-2-9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +203,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Maitake {
+        internal static System.Drawing.Bitmap japan1 {
             get {
-                object obj = ResourceManager.GetObject("Maitake", resourceCulture);
+                object obj = ResourceManager.GetObject("japan1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +213,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Maki_sushi {
+        internal static System.Drawing.Bitmap maitake {
             get {
-                object obj = ResourceManager.GetObject("Maki sushi", resourceCulture);
+                object obj = ResourceManager.GetObject("maitake", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +223,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Miso {
+        internal static System.Drawing.Bitmap maki {
             get {
-                object obj = ResourceManager.GetObject("Miso", resourceCulture);
+                object obj = ResourceManager.GetObject("maki", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +233,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Nigiri_sushi {
+        internal static System.Drawing.Bitmap nigiri {
             get {
-                object obj = ResourceManager.GetObject("Nigiri sushi", resourceCulture);
+                object obj = ResourceManager.GetObject("nigiri", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +243,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Pescado {
+        internal static System.Drawing.Bitmap nigiri1 {
             get {
-                object obj = ResourceManager.GetObject("Pescado", resourceCulture);
+                object obj = ResourceManager.GetObject("nigiri1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +253,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Shio {
+        internal static System.Drawing.Bitmap onigiri1 {
             get {
-                object obj = ResourceManager.GetObject("Shio", resourceCulture);
+                object obj = ResourceManager.GetObject("onigiri1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +263,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Shoyu {
+        internal static System.Drawing.Bitmap onigiri2 {
             get {
-                object obj = ResourceManager.GetObject("Shoyu", resourceCulture);
+                object obj = ResourceManager.GetObject("onigiri2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +273,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Tonkotsu {
+        internal static System.Drawing.Bitmap onomichi_ramen {
             get {
-                object obj = ResourceManager.GetObject("Tonkotsu", resourceCulture);
+                object obj = ResourceManager.GetObject("onomichi ramen", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +283,9 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Uramaki_sushi {
+        internal static System.Drawing.Bitmap pescado {
             get {
-                object obj = ResourceManager.GetObject("Uramaki sushi", resourceCulture);
+                object obj = ResourceManager.GetObject("pescado", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +293,109 @@ namespace Examen1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Verduras {
+        internal static System.Drawing.Bitmap pngimg_com___sushi_PNG9267 {
             get {
-                object obj = ResourceManager.GetObject("Verduras", resourceCulture);
+                object obj = ResourceManager.GetObject("pngimg.com - sushi_PNG9267", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sapporo_miso_ramen {
+            get {
+                object obj = ResourceManager.GetObject("sapporo miso ramen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap showa_itadakimasu {
+            get {
+                object obj = ResourceManager.GetObject("showa-itadakimasu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sistema_de_latas_de_soda_43232576 {
+            get {
+                object obj = ResourceManager.GetObject("sistema-de-latas-de-soda-43232576", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap soki_soba {
+            get {
+                object obj = ResourceManager.GetObject("soki soba", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap torii_fushimi_inari_taisha_shinto_shrine_japanese_architecture_wallpaper {
+            get {
+                object obj = ResourceManager.GetObject("torii-fushimi-inari-taisha-shinto-shrine-japanese-architecture-wallpaper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tuna {
+            get {
+                object obj = ResourceManager.GetObject("tuna", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap urimaki {
+            get {
+                object obj = ResourceManager.GetObject("urimaki", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vajilla_japonesa {
+            get {
+                object obj = ResourceManager.GetObject("vajilla-japonesa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap verdura {
+            get {
+                object obj = ResourceManager.GetObject("verdura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wakayama_ramen {
+            get {
+                object obj = ResourceManager.GetObject("wakayama ramen", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
