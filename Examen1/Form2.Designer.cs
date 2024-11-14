@@ -80,12 +80,14 @@ namespace Examen1
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -97,10 +99,11 @@ namespace Examen1
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage11);
             this.tabControl1.Font = new System.Drawing.Font("MV Boli", 15F);
-            this.tabControl1.Location = new System.Drawing.Point(-4, 1);
+            this.tabControl1.Location = new System.Drawing.Point(-5, 1);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(858, 566);
+            this.tabControl1.Size = new System.Drawing.Size(1153, 697);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -119,10 +122,11 @@ namespace Examen1
             this.tabPage1.Cursor = System.Windows.Forms.Cursors.Default;
             this.tabPage1.Font = new System.Drawing.Font("MV Boli", 25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.tabPage1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tabPage1.Location = new System.Drawing.Point(4, 38);
+            this.tabPage1.Location = new System.Drawing.Point(4, 44);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage1.Size = new System.Drawing.Size(850, 524);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Size = new System.Drawing.Size(1145, 649);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Makis";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -132,9 +136,10 @@ namespace Examen1
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label3.Location = new System.Drawing.Point(473, 474);
+            this.label3.Location = new System.Drawing.Point(631, 583);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(191, 25);
+            this.label3.Size = new System.Drawing.Size(255, 31);
             this.label3.TabIndex = 26;
             this.label3.Text = "MAKI $140";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -143,9 +148,10 @@ namespace Examen1
             // 
             this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button7.Location = new System.Drawing.Point(473, 301);
+            this.button7.Location = new System.Drawing.Point(637, 319);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(191, 171);
+            this.button7.Size = new System.Drawing.Size(260, 260);
             this.button7.TabIndex = 25;
             this.button7.UseVisualStyleBackColor = true;
             this.button7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button7_MouseDown);
@@ -155,9 +161,10 @@ namespace Examen1
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label2.Location = new System.Drawing.Point(214, 474);
+            this.label2.Location = new System.Drawing.Point(285, 583);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(191, 25);
+            this.label2.Size = new System.Drawing.Size(255, 31);
             this.label2.TabIndex = 24;
             this.label2.Text = "URAMAKI $150";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -166,9 +173,10 @@ namespace Examen1
             // 
             this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button6.Location = new System.Drawing.Point(214, 301);
+            this.button6.Location = new System.Drawing.Point(280, 320);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(191, 171);
+            this.button6.Size = new System.Drawing.Size(260, 260);
             this.button6.TabIndex = 23;
             this.button6.UseVisualStyleBackColor = true;
             this.button6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button6_MouseDown);
@@ -178,9 +186,10 @@ namespace Examen1
             this.lbl3.BackColor = System.Drawing.Color.Transparent;
             this.lbl3.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lbl3.Location = new System.Drawing.Point(589, 259);
+            this.lbl3.Location = new System.Drawing.Point(785, 285);
+            this.lbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(191, 25);
+            this.lbl3.Size = new System.Drawing.Size(255, 31);
             this.lbl3.TabIndex = 22;
             this.lbl3.Text = "GUNKAN $120";
             this.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -189,9 +198,10 @@ namespace Examen1
             // 
             this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.Location = new System.Drawing.Point(589, 85);
+            this.button5.Location = new System.Drawing.Point(780, 20);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(191, 171);
+            this.button5.Size = new System.Drawing.Size(260, 260);
             this.button5.TabIndex = 21;
             this.button5.UseVisualStyleBackColor = true;
             this.button5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button5_MouseDown);
@@ -201,9 +211,10 @@ namespace Examen1
             this.lbl2.BackColor = System.Drawing.Color.Transparent;
             this.lbl2.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lbl2.Location = new System.Drawing.Point(330, 259);
+            this.lbl2.Location = new System.Drawing.Point(440, 285);
+            this.lbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(191, 25);
+            this.lbl2.Size = new System.Drawing.Size(255, 31);
             this.lbl2.TabIndex = 20;
             this.lbl2.Text = "HOSOMAKI $120";
             this.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -212,9 +223,10 @@ namespace Examen1
             // 
             this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.Location = new System.Drawing.Point(330, 85);
+            this.button4.Location = new System.Drawing.Point(435, 20);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(191, 171);
+            this.button4.Size = new System.Drawing.Size(260, 260);
             this.button4.TabIndex = 19;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button4_MouseDown);
@@ -224,9 +236,10 @@ namespace Examen1
             this.lbl1.BackColor = System.Drawing.Color.Transparent;
             this.lbl1.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lbl1.Location = new System.Drawing.Point(78, 259);
+            this.lbl1.Location = new System.Drawing.Point(93, 285);
+            this.lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(190, 25);
+            this.lbl1.Size = new System.Drawing.Size(253, 31);
             this.lbl1.TabIndex = 18;
             this.lbl1.Text = "NIGIRI $100";
             this.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -235,9 +248,10 @@ namespace Examen1
             // 
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.Location = new System.Drawing.Point(78, 85);
+            this.button3.Location = new System.Drawing.Point(99, 20);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(190, 171);
+            this.button3.Size = new System.Drawing.Size(260, 260);
             this.button3.TabIndex = 17;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button3_MouseDown);
@@ -254,10 +268,11 @@ namespace Examen1
             this.tabPage2.Cursor = System.Windows.Forms.Cursors.Default;
             this.tabPage2.Font = new System.Drawing.Font("MV Boli", 25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.tabPage2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tabPage2.Location = new System.Drawing.Point(4, 38);
+            this.tabPage2.Location = new System.Drawing.Point(4, 44);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage2.Size = new System.Drawing.Size(850, 524);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Size = new System.Drawing.Size(1145, 649);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Tempura";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -267,9 +282,10 @@ namespace Examen1
             this.label6.BackColor = System.Drawing.Color.Black;
             this.label6.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(316, 327);
+            this.label6.Location = new System.Drawing.Point(421, 402);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(191, 25);
+            this.label6.Size = new System.Drawing.Size(255, 31);
             this.label6.TabIndex = 26;
             this.label6.Text = "PESCADO $60";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -278,9 +294,10 @@ namespace Examen1
             // 
             this.button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button10.BackgroundImage")));
             this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button10.Location = new System.Drawing.Point(316, 153);
+            this.button10.Location = new System.Drawing.Point(427, 123);
+            this.button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(191, 171);
+            this.button10.Size = new System.Drawing.Size(260, 260);
             this.button10.TabIndex = 25;
             this.button10.UseVisualStyleBackColor = true;
             this.button10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button10_MouseDown);
@@ -290,9 +307,10 @@ namespace Examen1
             this.label5.BackColor = System.Drawing.Color.Black;
             this.label5.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(583, 327);
+            this.label5.Location = new System.Drawing.Point(777, 402);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(191, 25);
+            this.label5.Size = new System.Drawing.Size(255, 31);
             this.label5.TabIndex = 24;
             this.label5.Text = "VERDURAS $50";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -301,9 +319,10 @@ namespace Examen1
             // 
             this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button9.Location = new System.Drawing.Point(583, 153);
+            this.button9.Location = new System.Drawing.Point(783, 123);
+            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(191, 171);
+            this.button9.Size = new System.Drawing.Size(260, 260);
             this.button9.TabIndex = 23;
             this.button9.UseVisualStyleBackColor = true;
             this.button9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button9_MouseDown);
@@ -313,9 +332,10 @@ namespace Examen1
             this.label4.BackColor = System.Drawing.Color.Black;
             this.label4.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(51, 327);
+            this.label4.Location = new System.Drawing.Point(68, 402);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(191, 25);
+            this.label4.Size = new System.Drawing.Size(255, 31);
             this.label4.TabIndex = 22;
             this.label4.Text = "MAITAKE $60";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -324,9 +344,10 @@ namespace Examen1
             // 
             this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button8.Location = new System.Drawing.Point(51, 153);
+            this.button8.Location = new System.Drawing.Point(74, 123);
+            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(191, 171);
+            this.button8.Size = new System.Drawing.Size(260, 260);
             this.button8.TabIndex = 21;
             this.button8.UseVisualStyleBackColor = true;
             this.button8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button8_MouseDown);
@@ -344,10 +365,11 @@ namespace Examen1
             this.tabPage3.Controls.Add(this.button13);
             this.tabPage3.Font = new System.Drawing.Font("MV Boli", 25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.tabPage3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tabPage3.Location = new System.Drawing.Point(4, 38);
+            this.tabPage3.Location = new System.Drawing.Point(4, 44);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage3.Size = new System.Drawing.Size(850, 524);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Size = new System.Drawing.Size(1145, 649);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Ramen";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -357,9 +379,10 @@ namespace Examen1
             this.rlbl4.BackColor = System.Drawing.Color.Transparent;
             this.rlbl4.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rlbl4.ForeColor = System.Drawing.SystemColors.Window;
-            this.rlbl4.Location = new System.Drawing.Point(468, 487);
+            this.rlbl4.Location = new System.Drawing.Point(624, 599);
+            this.rlbl4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.rlbl4.Name = "rlbl4";
-            this.rlbl4.Size = new System.Drawing.Size(191, 25);
+            this.rlbl4.Size = new System.Drawing.Size(255, 31);
             this.rlbl4.TabIndex = 34;
             this.rlbl4.Text = "SHIO $130";
             this.rlbl4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -368,9 +391,10 @@ namespace Examen1
             // 
             this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
             this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button14.Location = new System.Drawing.Point(468, 313);
+            this.button14.Location = new System.Drawing.Point(643, 335);
+            this.button14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(191, 171);
+            this.button14.Size = new System.Drawing.Size(260, 260);
             this.button14.TabIndex = 33;
             this.button14.UseVisualStyleBackColor = true;
             this.button14.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button14_MouseDown);
@@ -380,9 +404,10 @@ namespace Examen1
             this.rlbl2.BackColor = System.Drawing.Color.Transparent;
             this.rlbl2.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rlbl2.ForeColor = System.Drawing.SystemColors.Window;
-            this.rlbl2.Location = new System.Drawing.Point(468, 247);
+            this.rlbl2.Location = new System.Drawing.Point(624, 304);
+            this.rlbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.rlbl2.Name = "rlbl2";
-            this.rlbl2.Size = new System.Drawing.Size(191, 25);
+            this.rlbl2.Size = new System.Drawing.Size(255, 31);
             this.rlbl2.TabIndex = 32;
             this.rlbl2.Text = "MISO $110";
             this.rlbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -391,9 +416,10 @@ namespace Examen1
             // 
             this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
             this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button11.Location = new System.Drawing.Point(468, 73);
+            this.button11.Location = new System.Drawing.Point(643, 40);
+            this.button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(191, 171);
+            this.button11.Size = new System.Drawing.Size(260, 260);
             this.button11.TabIndex = 31;
             this.button11.UseVisualStyleBackColor = true;
             this.button11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button11_MouseDown);
@@ -403,9 +429,10 @@ namespace Examen1
             this.rlbl3.BackColor = System.Drawing.Color.Transparent;
             this.rlbl3.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rlbl3.ForeColor = System.Drawing.SystemColors.Window;
-            this.rlbl3.Location = new System.Drawing.Point(203, 487);
+            this.rlbl3.Location = new System.Drawing.Point(271, 599);
+            this.rlbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.rlbl3.Name = "rlbl3";
-            this.rlbl3.Size = new System.Drawing.Size(191, 25);
+            this.rlbl3.Size = new System.Drawing.Size(255, 31);
             this.rlbl3.TabIndex = 30;
             this.rlbl3.Text = "SHOYU $100";
             this.rlbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -414,9 +441,10 @@ namespace Examen1
             // 
             this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
             this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button12.Location = new System.Drawing.Point(203, 313);
+            this.button12.Location = new System.Drawing.Point(298, 335);
+            this.button12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(191, 171);
+            this.button12.Size = new System.Drawing.Size(260, 260);
             this.button12.TabIndex = 29;
             this.button12.UseVisualStyleBackColor = true;
             this.button12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button12_MouseDown);
@@ -426,9 +454,10 @@ namespace Examen1
             this.rlbl1.BackColor = System.Drawing.Color.Transparent;
             this.rlbl1.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rlbl1.ForeColor = System.Drawing.SystemColors.Window;
-            this.rlbl1.Location = new System.Drawing.Point(203, 247);
+            this.rlbl1.Location = new System.Drawing.Point(271, 304);
+            this.rlbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.rlbl1.Name = "rlbl1";
-            this.rlbl1.Size = new System.Drawing.Size(191, 25);
+            this.rlbl1.Size = new System.Drawing.Size(255, 31);
             this.rlbl1.TabIndex = 28;
             this.rlbl1.Text = "TONKOTSU $160";
             this.rlbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -437,9 +466,10 @@ namespace Examen1
             // 
             this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
             this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button13.Location = new System.Drawing.Point(203, 73);
+            this.button13.Location = new System.Drawing.Point(298, 40);
+            this.button13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(191, 171);
+            this.button13.Size = new System.Drawing.Size(260, 260);
             this.button13.TabIndex = 27;
             this.button13.UseVisualStyleBackColor = true;
             this.button13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button13_MouseDown);
@@ -453,10 +483,11 @@ namespace Examen1
             this.tabPage7.Controls.Add(this.button16);
             this.tabPage7.Font = new System.Drawing.Font("MV Boli", 25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.tabPage7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tabPage7.Location = new System.Drawing.Point(4, 38);
+            this.tabPage7.Location = new System.Drawing.Point(4, 44);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage7.Size = new System.Drawing.Size(850, 524);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Size = new System.Drawing.Size(1145, 649);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Onigiri";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -466,9 +497,10 @@ namespace Examen1
             this.olbl2.BackColor = System.Drawing.Color.Transparent;
             this.olbl2.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.olbl2.ForeColor = System.Drawing.SystemColors.Window;
-            this.olbl2.Location = new System.Drawing.Point(466, 334);
+            this.olbl2.Location = new System.Drawing.Point(610, 411);
+            this.olbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.olbl2.Name = "olbl2";
-            this.olbl2.Size = new System.Drawing.Size(191, 25);
+            this.olbl2.Size = new System.Drawing.Size(255, 31);
             this.olbl2.TabIndex = 36;
             this.olbl2.Text = "ASADO $65";
             this.olbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -477,9 +509,10 @@ namespace Examen1
             // 
             this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
             this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button15.Location = new System.Drawing.Point(466, 160);
+            this.button15.Location = new System.Drawing.Point(616, 147);
+            this.button15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(191, 171);
+            this.button15.Size = new System.Drawing.Size(260, 260);
             this.button15.TabIndex = 35;
             this.button15.UseVisualStyleBackColor = true;
             this.button15.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button15_MouseDown);
@@ -489,9 +522,10 @@ namespace Examen1
             this.olbl1.BackColor = System.Drawing.Color.Transparent;
             this.olbl1.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.olbl1.ForeColor = System.Drawing.SystemColors.Window;
-            this.olbl1.Location = new System.Drawing.Point(201, 334);
+            this.olbl1.Location = new System.Drawing.Point(257, 411);
+            this.olbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.olbl1.Name = "olbl1";
-            this.olbl1.Size = new System.Drawing.Size(191, 25);
+            this.olbl1.Size = new System.Drawing.Size(255, 31);
             this.olbl1.TabIndex = 34;
             this.olbl1.Text = "CLÁSICO $40";
             this.olbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -500,9 +534,10 @@ namespace Examen1
             // 
             this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
             this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button16.Location = new System.Drawing.Point(201, 160);
+            this.button16.Location = new System.Drawing.Point(263, 147);
+            this.button16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(191, 171);
+            this.button16.Size = new System.Drawing.Size(260, 260);
             this.button16.TabIndex = 33;
             this.button16.UseVisualStyleBackColor = true;
             this.button16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button16_MouseDown);
@@ -520,10 +555,11 @@ namespace Examen1
             this.tabPage11.Controls.Add(this.button20);
             this.tabPage11.Font = new System.Drawing.Font("MV Boli", 25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.tabPage11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tabPage11.Location = new System.Drawing.Point(4, 38);
+            this.tabPage11.Location = new System.Drawing.Point(4, 44);
+            this.tabPage11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage11.Size = new System.Drawing.Size(850, 524);
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage11.Size = new System.Drawing.Size(1145, 649);
             this.tabPage11.TabIndex = 10;
             this.tabPage11.Text = "Bebidas ";
             this.tabPage11.UseVisualStyleBackColor = true;
@@ -533,9 +569,10 @@ namespace Examen1
             this.BLBL4.BackColor = System.Drawing.Color.Transparent;
             this.BLBL4.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BLBL4.ForeColor = System.Drawing.SystemColors.Window;
-            this.BLBL4.Location = new System.Drawing.Point(463, 469);
+            this.BLBL4.Location = new System.Drawing.Point(617, 577);
+            this.BLBL4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BLBL4.Name = "BLBL4";
-            this.BLBL4.Size = new System.Drawing.Size(191, 25);
+            this.BLBL4.Size = new System.Drawing.Size(255, 31);
             this.BLBL4.TabIndex = 42;
             this.BLBL4.Text = "SODAS $30";
             this.BLBL4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -544,9 +581,10 @@ namespace Examen1
             // 
             this.button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button17.BackgroundImage")));
             this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button17.Location = new System.Drawing.Point(463, 295);
+            this.button17.Location = new System.Drawing.Point(612, 313);
+            this.button17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(191, 171);
+            this.button17.Size = new System.Drawing.Size(260, 260);
             this.button17.TabIndex = 41;
             this.button17.UseVisualStyleBackColor = true;
             this.button17.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button17_MouseDown);
@@ -556,9 +594,10 @@ namespace Examen1
             this.BLBL2.BackColor = System.Drawing.Color.Transparent;
             this.BLBL2.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BLBL2.ForeColor = System.Drawing.SystemColors.Window;
-            this.BLBL2.Location = new System.Drawing.Point(463, 229);
+            this.BLBL2.Location = new System.Drawing.Point(617, 282);
+            this.BLBL2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BLBL2.Name = "BLBL2";
-            this.BLBL2.Size = new System.Drawing.Size(191, 25);
+            this.BLBL2.Size = new System.Drawing.Size(255, 31);
             this.BLBL2.TabIndex = 40;
             this.BLBL2.Text = "MATCHA $50";
             this.BLBL2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -567,9 +606,10 @@ namespace Examen1
             // 
             this.button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button18.BackgroundImage")));
             this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button18.Location = new System.Drawing.Point(463, 55);
+            this.button18.Location = new System.Drawing.Point(612, 18);
+            this.button18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(191, 171);
+            this.button18.Size = new System.Drawing.Size(260, 260);
             this.button18.TabIndex = 39;
             this.button18.UseVisualStyleBackColor = true;
             this.button18.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button18_MouseDown);
@@ -579,9 +619,10 @@ namespace Examen1
             this.BLBL3.BackColor = System.Drawing.Color.Transparent;
             this.BLBL3.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BLBL3.ForeColor = System.Drawing.SystemColors.Window;
-            this.BLBL3.Location = new System.Drawing.Point(198, 469);
+            this.BLBL3.Location = new System.Drawing.Point(264, 577);
+            this.BLBL3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BLBL3.Name = "BLBL3";
-            this.BLBL3.Size = new System.Drawing.Size(191, 25);
+            this.BLBL3.Size = new System.Drawing.Size(255, 31);
             this.BLBL3.TabIndex = 38;
             this.BLBL3.Text = "AGUA $30";
             this.BLBL3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -590,9 +631,10 @@ namespace Examen1
             // 
             this.button19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button19.BackgroundImage")));
             this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button19.Location = new System.Drawing.Point(198, 295);
+            this.button19.Location = new System.Drawing.Point(259, 313);
+            this.button19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(191, 171);
+            this.button19.Size = new System.Drawing.Size(260, 260);
             this.button19.TabIndex = 37;
             this.button19.UseVisualStyleBackColor = true;
             this.button19.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button19_MouseDown);
@@ -602,9 +644,10 @@ namespace Examen1
             this.BLBL1.BackColor = System.Drawing.Color.Transparent;
             this.BLBL1.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BLBL1.ForeColor = System.Drawing.SystemColors.Window;
-            this.BLBL1.Location = new System.Drawing.Point(198, 229);
+            this.BLBL1.Location = new System.Drawing.Point(264, 282);
+            this.BLBL1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BLBL1.Name = "BLBL1";
-            this.BLBL1.Size = new System.Drawing.Size(191, 25);
+            this.BLBL1.Size = new System.Drawing.Size(255, 31);
             this.BLBL1.TabIndex = 36;
             this.BLBL1.Text = "LIMONADA $30";
             this.BLBL1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -613,9 +656,10 @@ namespace Examen1
             // 
             this.button20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button20.BackgroundImage")));
             this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button20.Location = new System.Drawing.Point(198, 55);
+            this.button20.Location = new System.Drawing.Point(259, 18);
+            this.button20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(191, 171);
+            this.button20.Size = new System.Drawing.Size(260, 260);
             this.button20.TabIndex = 35;
             this.button20.UseVisualStyleBackColor = true;
             this.button20.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button20_MouseDown);
@@ -627,9 +671,10 @@ namespace Examen1
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(862, 424);
+            this.button1.Location = new System.Drawing.Point(1149, 554);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 58);
+            this.button1.Size = new System.Drawing.Size(212, 71);
             this.button1.TabIndex = 3;
             this.button1.Text = "GENERAR TICKET";
             this.button1.UseVisualStyleBackColor = false;
@@ -643,9 +688,11 @@ namespace Examen1
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listBox1.ForeColor = System.Drawing.Color.Black;
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(862, 68);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(1150, 265);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(159, 340);
+            this.listBox1.Size = new System.Drawing.Size(211, 290);
             this.listBox1.TabIndex = 0;
             // 
             // button2
@@ -655,9 +702,10 @@ namespace Examen1
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(862, 495);
+            this.button2.Location = new System.Drawing.Point(1149, 623);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 58);
+            this.button2.Size = new System.Drawing.Size(212, 71);
             this.button2.TabIndex = 4;
             this.button2.Text = "CERRAR SESIÓN";
             this.button2.UseVisualStyleBackColor = false;
@@ -690,22 +738,36 @@ namespace Examen1
             // label7
             // 
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("MV Boli", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("MV Boli", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label7.Location = new System.Drawing.Point(860, 19);
+            this.label7.Location = new System.Drawing.Point(1149, 165);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(159, 39);
+            this.label7.Size = new System.Drawing.Size(212, 93);
             this.label7.TabIndex = 27;
-            this.label7.Text = "Orden";
+            this.label7.Text = "Solo Peso Mexicano (MXN)";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1149, 13);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(212, 148);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1023, 563);
+            this.ClientSize = new System.Drawing.Size(1364, 693);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -715,6 +777,7 @@ namespace Examen1
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form2";
             this.Text = "GENERAR TIKET";
             this.tabControl1.ResumeLayout(false);
@@ -723,6 +786,7 @@ namespace Examen1
             this.tabPage3.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
             this.tabPage11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -777,5 +841,6 @@ namespace Examen1
         private System.Windows.Forms.Label BLBL1;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
