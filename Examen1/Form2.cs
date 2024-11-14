@@ -43,8 +43,14 @@ namespace Examen1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            generarTiket();
-            orden++;
+            double total = totalTicket; // El total acumulado
+            FormTicket ticketForm = new FormTicket(listBox1, total); // Pasamos listBox1 directamente
+            ticketForm.Show();
+            TotalArticulos = nigiris = hosomakis = gunkans = uramaki = maki = pescado = verduras = maitake = tonkotsu = miso = shoyu = shio = clasico = asado = limonada = matcha = agua = sodas = 0;
+            totalTicket = 0;
+            listBox1.Items.Clear();
+            /*generarTiket();
+            orden++;*/
         }
 
         public void ActualizarTicket(bool c, double precio)

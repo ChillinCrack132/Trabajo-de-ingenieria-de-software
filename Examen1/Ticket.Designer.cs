@@ -1,6 +1,6 @@
 ﻿namespace Examen1
 {
-    partial class Ticket
+    partial class FormTicket
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,160 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
+            this.listBoxTicket = new System.Windows.Forms.ListBox();
+            this.lblSubtotal = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblIVA = new System.Windows.Forms.Label();
+            this.BLBL4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Ticket
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(340, 49);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Ticket de compra";
+            // 
+            // listBoxTicket
+            // 
+            this.listBoxTicket.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBoxTicket.FormattingEnabled = true;
+            this.listBoxTicket.ItemHeight = 16;
+            this.listBoxTicket.Location = new System.Drawing.Point(12, 72);
+            this.listBoxTicket.Name = "listBoxTicket";
+            this.listBoxTicket.Size = new System.Drawing.Size(329, 84);
+            this.listBoxTicket.TabIndex = 1;
+            // 
+            // lblSubtotal
+            // 
+            this.lblSubtotal.AutoSize = true;
+            this.lblSubtotal.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubtotal.Location = new System.Drawing.Point(12, 180);
+            this.lblSubtotal.Name = "lblSubtotal";
+            this.lblSubtotal.Size = new System.Drawing.Size(134, 31);
+            this.lblSubtotal.TabIndex = 0;
+            this.lblSubtotal.Text = "Sub-Total";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(245, 180);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(24, 31);
+            this.label3.TabIndex = 0;
+            this.label3.Text = ".";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(245, 211);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(24, 31);
+            this.label4.TabIndex = 0;
+            this.label4.Text = ".";
+            // 
+            // lblIVA
+            // 
+            this.lblIVA.AutoSize = true;
+            this.lblIVA.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIVA.Location = new System.Drawing.Point(12, 211);
+            this.lblIVA.Name = "lblIVA";
+            this.lblIVA.Size = new System.Drawing.Size(144, 31);
+            this.lblIVA.TabIndex = 0;
+            this.lblIVA.Text = "IVA (16%)";
+            // 
+            // BLBL4
+            // 
+            this.BLBL4.BackColor = System.Drawing.Color.Transparent;
+            this.BLBL4.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BLBL4.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.BLBL4.Location = new System.Drawing.Point(7, 287);
+            this.BLBL4.Name = "BLBL4";
+            this.BLBL4.Size = new System.Drawing.Size(329, 25);
+            this.BLBL4.TabIndex = 43;
+            this.BLBL4.Text = "Muchas gracias por su compra";
+            this.BLBL4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(245, 242);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(24, 31);
+            this.label6.TabIndex = 0;
+            this.label6.Text = ".";
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(12, 242);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(97, 31);
+            this.lblTotal.TabIndex = 0;
+            this.lblTotal.Text = "TOTAL";
+            // 
+            // button6
+            // 
+            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button6.BackColor = System.Drawing.Color.Lime;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Location = new System.Drawing.Point(79, 327);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(207, 43);
+            this.button6.TabIndex = 51;
+            this.button6.Text = "ACEPTAR";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // FormTicket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(575, 615);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Ticket";
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(372, 374);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.BLBL4);
+            this.Controls.Add(this.listBoxTicket);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblTotal);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.lblIVA);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblSubtotal);
+            this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "FormTicket";
             this.Text = "Ticket";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListBox listBoxTicket;
+        private System.Windows.Forms.Label lblSubtotal;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblIVA;
+        private System.Windows.Forms.Label BLBL4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label3;
     }
 }
