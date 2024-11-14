@@ -26,9 +26,9 @@ namespace Examen1
 
             double iva = total - subtotal;
 
-            label3.Text = subtotal.ToString("F2");
-            label4.Text = iva.ToString("F2");
-            label6.Text = total.ToString("F2");
+            label3.Text = ("$" + subtotal.ToString("F2"));
+            label4.Text = ("$"+iva.ToString("F2"));
+            label6.Text = ("$" + total.ToString("F2"));
 
             AdjustFormHeight(listBox1.Items.Count);
         }

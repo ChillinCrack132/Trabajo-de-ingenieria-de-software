@@ -152,7 +152,7 @@
             this.BLBL4.Name = "BLBL4";
             this.BLBL4.Size = new System.Drawing.Size(191, 25);
             this.BLBL4.TabIndex = 43;
-            this.BLBL4.Text = "Coca-Cola";
+            this.BLBL4.Text = "Coca-Cola $30";
             this.BLBL4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
@@ -164,7 +164,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(191, 25);
             this.label3.TabIndex = 43;
-            this.label3.Text = "Fanta";
+            this.label3.Text = "Fanta $30";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -176,7 +176,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(191, 25);
             this.label1.TabIndex = 43;
-            this.label1.Text = "Sprite";
+            this.label1.Text = "Sprite $30";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
@@ -188,7 +188,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(191, 25);
             this.label4.TabIndex = 43;
-            this.label4.Text = "Squirt";
+            this.label4.Text = "Squirt $30";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -200,7 +200,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(191, 25);
             this.label2.TabIndex = 43;
-            this.label2.Text = "7UP";
+            this.label2.Text = "7UP $30";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
@@ -212,7 +212,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(191, 25);
             this.label5.TabIndex = 43;
-            this.label5.Text = "Pepsi";
+            this.label5.Text = "Pepsi $30";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sodas
