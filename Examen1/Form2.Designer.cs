@@ -632,7 +632,7 @@ namespace Examen1
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(159, 58);
             this.button1.TabIndex = 3;
-            this.button1.Text = "GENERAR TICKET";
+            this.button1.Text = "PROCEDER A PAGAR";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -640,13 +640,15 @@ namespace Examen1
             // 
             this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox1.BackColor = System.Drawing.Color.White;
+            this.listBox1.BackColor = System.Drawing.Color.Black;
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.listBox1.ForeColor = System.Drawing.Color.Black;
+            this.listBox1.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.ForeColor = System.Drawing.Color.Transparent;
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 17;
             this.listBox1.Location = new System.Drawing.Point(862, 215);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(159, 236);
+            this.listBox1.Size = new System.Drawing.Size(159, 223);
             this.listBox1.TabIndex = 0;
             // 
             // button2

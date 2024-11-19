@@ -44,6 +44,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MV Boli", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(340, 49);
@@ -52,19 +53,22 @@
             // 
             // listBoxTicket
             // 
-            this.listBoxTicket.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBoxTicket.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.listBoxTicket.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBoxTicket.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.listBoxTicket.FormattingEnabled = true;
-            this.listBoxTicket.ItemHeight = 16;
+            this.listBoxTicket.ItemHeight = 21;
             this.listBoxTicket.Location = new System.Drawing.Point(12, 72);
             this.listBoxTicket.Name = "listBoxTicket";
-            this.listBoxTicket.Size = new System.Drawing.Size(329, 84);
+            this.listBoxTicket.Size = new System.Drawing.Size(329, 172);
             this.listBoxTicket.TabIndex = 1;
             // 
             // lblSubtotal
             // 
             this.lblSubtotal.AutoSize = true;
             this.lblSubtotal.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubtotal.Location = new System.Drawing.Point(12, 180);
+            this.lblSubtotal.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblSubtotal.Location = new System.Drawing.Point(15, 254);
             this.lblSubtotal.Name = "lblSubtotal";
             this.lblSubtotal.Size = new System.Drawing.Size(134, 31);
             this.lblSubtotal.TabIndex = 0;
@@ -74,27 +78,32 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(245, 180);
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(227, 254);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(24, 31);
             this.label3.TabIndex = 0;
             this.label3.Text = ".";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(245, 211);
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(227, 285);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(24, 31);
             this.label4.TabIndex = 0;
             this.label4.Text = ".";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblIVA
             // 
             this.lblIVA.AutoSize = true;
             this.lblIVA.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIVA.Location = new System.Drawing.Point(12, 211);
+            this.lblIVA.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblIVA.Location = new System.Drawing.Point(15, 285);
             this.lblIVA.Name = "lblIVA";
             this.lblIVA.Size = new System.Drawing.Size(144, 31);
             this.lblIVA.TabIndex = 0;
@@ -104,8 +113,8 @@
             // 
             this.BLBL4.BackColor = System.Drawing.Color.Transparent;
             this.BLBL4.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BLBL4.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.BLBL4.Location = new System.Drawing.Point(7, 287);
+            this.BLBL4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BLBL4.Location = new System.Drawing.Point(7, 352);
             this.BLBL4.Name = "BLBL4";
             this.BLBL4.Size = new System.Drawing.Size(329, 25);
             this.BLBL4.TabIndex = 43;
@@ -116,17 +125,20 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(245, 242);
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Location = new System.Drawing.Point(227, 316);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(24, 31);
             this.label6.TabIndex = 0;
             this.label6.Text = ".";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(12, 242);
+            this.lblTotal.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblTotal.Location = new System.Drawing.Point(15, 316);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(97, 31);
             this.lblTotal.TabIndex = 0;
@@ -139,7 +151,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Location = new System.Drawing.Point(79, 327);
+            this.button6.Location = new System.Drawing.Point(79, 380);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(207, 43);
             this.button6.TabIndex = 51;
@@ -151,8 +163,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(372, 374);
+            this.BackColor = System.Drawing.SystemColors.InfoText;
+            this.ClientSize = new System.Drawing.Size(372, 427);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.BLBL4);
             this.Controls.Add(this.listBoxTicket);
